@@ -1,0 +1,14 @@
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\bin\Debug\net6.0\Day16_17Assignment.exe
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\bin\Debug\net6.0\Day16_17Assignment.deps.json
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\bin\Debug\net6.0\Day16_17Assignment.runtimeconfig.json
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\bin\Debug\net6.0\Day16_17Assignment.dll
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\bin\Debug\net6.0\ref\Day16_17Assignment.dll
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\bin\Debug\net6.0\Day16_17Assignment.pdb
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\obj\Debug\net6.0\Day16_17Assignment.GeneratedMSBuildEditorConfig.editorconfig
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\obj\Debug\net6.0\Day16_17Assignment.AssemblyInfoInputs.cache
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\obj\Debug\net6.0\Day16_17Assignment.AssemblyInfo.cs
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\obj\Debug\net6.0\Day16_17Assignment.csproj.CoreCompileInputs.cache
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\obj\Debug\net6.0\Day16_17Assignment.dll
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\obj\Debug\net6.0\ref\Day16_17Assignment.dll
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\obj\Debug\net6.0\Day16_17Assignment.pdb
+D:\downloads\abc\C# day16-17 Assignment\Day16_17Assignment\Day16_17Assignment\obj\Debug\net6.0\Day16_17Assignment.genruntimeconfig.cache

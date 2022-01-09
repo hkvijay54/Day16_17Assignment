@@ -1,48 +1,32 @@
 ﻿using System;
 
-namespace TwoStringAreEqual
+namespace Anagram
 {
     class Program
-    {
-        public static bool checkEquality(String[] s1, String[] s2)
+    {    
+        static void Main(string[] args)
         {
-            if (s1 == s2)
+            string str1 = "malayalam";
+            string str2 = "malayalam";
+
+            char[] ch1 = str1.ToLower().ToCharArray();
+            char[] ch2 = str2.ToLower().ToCharArray();
+
+            Array.Sort(ch1);
+            Array.Sort(ch2);
+
+            string val1 = new string(ch1);
+            string val2 = new string(ch2);
+
+            if (val1 == val2)
             {
-                return true;
+                Console.WriteLine("Anagram-------{0}----{1}", val1, val2);
             }
-            if (s1 == null || s2 == null)
+            else
             {
-                return false;
+                Console.WriteLine("Not Anagram");
             }
-            int n = s1.Length;
-            if (n != s2.Length)
-            {
-                return false;
-            }
-            for (int i = 0; i < n; i++)
-            {
-                if (!s1[i].Equals(s2[i]))
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
-        class program
-        {
-            static void Main(String[] args)
-            {
-                String[] s1 = { "A", "B", "C" };
-                String[] s2 = { "A", "B", "C" };
-                if (checkEquality(s1, s2))
-                {
-                    Console.WriteLine("Both arrays are equal");
-                }
-                else
-                {
-                    Console.WriteLine("Both arrays are not equal");
-                }
-            }
+
         }
     }
 }
