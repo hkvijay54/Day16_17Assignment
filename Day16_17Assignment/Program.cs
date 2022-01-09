@@ -1,32 +1,20 @@
-﻿using System;
+﻿using Binary_Search_Word;
+using System;
 
-namespace Anagram
-{
+namespace BinarySearchTree
+{    
     class Program
-    {    
+    {
         static void Main(string[] args)
         {
-            string str1 = "malayalam";
-            string str2 = "malayalam";
+            BinaryTree binaryTree = new BinaryTree();
 
-            char[] ch1 = str1.ToLower().ToCharArray();
-            char[] ch2 = str2.ToLower().ToCharArray();
-
-            Array.Sort(ch1);
-            Array.Sort(ch2);
-
-            string val1 = new string(ch1);
-            string val2 = new string(ch2);
-
-            if (val1 == val2)
-            {
-                Console.WriteLine("Anagram-------{0}----{1}", val1, val2);
-            }
-            else
-            {
-                Console.WriteLine("Not Anagram");
-            }
-
+            binaryTree.Add(1);
+            binaryTree.Add(2);
+            binaryTree.Add(7);
+            binaryTree.Add(3);
+            binaryTree.Add(0);
+            binaryTree.TraversePreorder(binaryTree.Root);
         }
     }
 }
