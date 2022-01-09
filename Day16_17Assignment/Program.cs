@@ -1,32 +1,35 @@
 ﻿using System;
 
-namespace BubbleSort
-{    
+namespace PrimeNUmDemo
+{  
     class Program
     {
         static void Main(string[] args)
         {
-            int[] arr = { 78, 55, 45, 98, 13 };
-            int temp;
+            int num, i, ctr, low, high;
+            low = 0;
+            high = 10;
 
-            for (int j = 0; j <= arr.Length - 2; j++)
+            Console.WriteLine("The Prime numbers between {0} and {1} are: \n", low, high);
+
+            for (num = low; num <= high; num++)
             {
-                for (int i = 0; i <= arr.Length - 2; i++)
+                ctr = 0;
+
+                for (i = 2; i <= num / 2; i++)
                 {
-                    if (arr[i] > arr[i + 1])
+                    if (num % i == 0)
                     {
-                        temp = arr[i + 1];
-                        arr[i + 1] = arr[i];
-                        arr[i] = temp;
+                        ctr++;
+                        break;
                     }
                 }
+                if (ctr == 0 && num != 1)
+                {
+                    Console.WriteLine("{0}", num);
+                }
             }
-            Console.WriteLine("sorted");
-            foreach (int p in arr)
-            {
-                Console.WriteLine(p + " ");
-            }
-            Console.Read();
+            Console.WriteLine("\n");
         }
     }
-} 
+}
